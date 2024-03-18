@@ -1,0 +1,25 @@
+using System;using System.Collections.Generic;
+using System.Linq;using System.Text;
+using System.Threading.Tasks;
+namespace ConsoleApp14{
+    class Program    {
+        static void Main(string[] args)        {
+            int n1 = 0, n2 = 1, i, n3;
+            Console.WriteLine("enter the value of series");
+            int check = Convert.ToInt16(Console.ReadLine());
+            Console.Write(n1 + " " + n2);    
+        for (i = 2; i < check; i++)
+            {              
+  n3 = n1 + n2;
+    n1 = n2;   
+             
+   n2 = n3;
+               
+ Console.Write(" " + n3);     
+       }
+           
+ Console.ReadKey();
+       
+ }    
+}
+}
